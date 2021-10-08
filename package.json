@@ -1,0 +1,31 @@
+{
+  "name": "leaflet",
+  "version": "1.0.0",
+  "description": "build maps with leatlet and node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "beefy app.js:bundle.js --live",
+    "bundle": "browserify app.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pujilesmana/testBVT.git"
+  },
+  "keywords": [
+    "Maps",
+    "Node",
+    "JS",
+    "Leaflet"
+  ],
+  "author": "Puji Lesmana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pujilesmana/testBVT/issues"
+  },
+  "homepage": "https://github.com/pujilesmana/testBVT#readme",
+  "dependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^17.0.0",
+    "leaflet": "^1.7.1"
+  }
+}
